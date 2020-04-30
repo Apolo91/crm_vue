@@ -4,7 +4,6 @@
       <div class="page-subtitle">
         <h4>Создать</h4>
       </div>
-
       <form>
         <div class="input-field">
           <input id="name" type="text">
