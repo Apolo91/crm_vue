@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar orange lighten-1">
+  <nav class="navbar  teal lighten-2">
     <div class="nav-wrapper">
       <div class="navbar-left">
         <a href="#" @click.prevent="$emit('click')">
@@ -21,13 +21,13 @@
 
           <ul id="dropdown" class="dropdown-content">
             <li>
-              <router-link to="/profile" class="black-text">
+              <router-link to="/profile" class="black-text waves-teal pointer">
                 <i class="material-icons">account_circle</i>Профиль
               </router-link>
             </li>
             <li class="divider" tabindex="-1"></li>
             <li>
-              <a href="#" class="black-text" @click.prevent="logout">
+              <a href="#" class="black-text waves-teal pointer" @click.prevent="logout">
                 <i class="material-icons">assignment_return</i>Выйти
               </a>
             </li>
